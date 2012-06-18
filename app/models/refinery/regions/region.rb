@@ -5,6 +5,8 @@ module Refinery
     
       acts_as_indexed :fields => [:name]
 
+      attr_accessible :name, :position
+
       validates :name, :presence => true, :uniqueness => true
               
     end
