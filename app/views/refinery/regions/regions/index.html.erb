@@ -1,0 +1,11 @@
+<% content_for :body_content_left do %>
+  <ul id="regions">
+    <% @regions.each do |region| %>
+      <li>
+        <%= link_to region.name, refinery.regions_region_path(region) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= render '/refinery/content_page' %>

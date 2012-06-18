@@ -1,0 +1,28 @@
+es:
+  refinery:
+    plugins:
+      regions:
+        title: Regions
+#        article: masculino/femenino
+    regions:
+      admin:
+        regions:
+          actions:
+            create_new: Crear nuevo region
+            reorder: Reordenar regions
+            reorder_done: Reordenación de regions completada
+          records:
+            title: Regions
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay regions todavía. Pulsa en "Crear nuevo Region" para crear tu primer region.
+          region:
+            view_live_html: Ver este region como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este region
+            delete: Borrar este region para siempre
+      regions:
+        show:
+          other: Otros regions
+  activerecord:
+    attributes:
+      'refinery/regions/region':
+        name: Name

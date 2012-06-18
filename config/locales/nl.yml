@@ -1,0 +1,27 @@
+nl:
+  refinery:
+    plugins:
+      regions:
+        title: Regions
+    regions:
+      admin:
+        regions:
+          actions:
+            create_new: Maak een nieuwe Region
+            reorder: Wijzig de volgorde van de Regions
+            reorder_done: Klaar met het wijzingen van de volgorde van de Regions
+          records:
+            title: Regions
+            sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+            no_items_yet: Er zijn nog geen Regions. Druk op 'Maak een nieuwe Region' om de eerste aan te maken.
+          region:
+            view_live_html: Bekijk deze region op de website <br/><em>(opent een nieuw venster)</em>
+            edit: Bewerk deze region
+            delete: Verwijder deze region voor eeuwig
+      regions:
+        show:
+          other: Andere Regions
+  activerecord:
+    attributes:
+      'refinery/regions/region':
+        name: Name
