@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.summary           = 'Regions extension for Refinery CMS'
   s.require_paths     = %w(lib)
   s.files             = Dir["{app,config,db,lib}/**/*"] + ["readme.md"]
-  .authors            = 'Maria Rosa Sanchez'
+  s.authors           = 'Maria Rosa Sanchez'
   s.homepage          = 'http://innku.com'
   s.email             = 'rosa@innku.com'
 
